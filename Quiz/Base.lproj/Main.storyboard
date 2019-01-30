@@ -9,6 +9,14 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Book</string>
+        </array>
+        <array key="HiraginoKakuGothic.ttc">
+            <string>HiraginoSans-W3</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -19,42 +27,52 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nci-bf-Wn4">
-                                <rect key="frame" x="175" y="60" width="25" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="173" y="60" width="29" height="27.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MbH-Jk-7h8">
-                                <rect key="frame" x="175" y="295" width="25" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="173" y="300.5" width="29" height="27.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9FY-YG-k3M">
-                                <rect key="frame" x="141" y="318" width="93" height="30"/>
+                                <rect key="frame" x="130" y="330" width="115" height="29"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
                                 <state key="normal" title="Show Answer"/>
                                 <connections>
                                     <action selector="showAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oee-rC-IdF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2si-c8-60V">
-                                <rect key="frame" x="138" y="89" width="98" height="30"/>
+                                <rect key="frame" x="127" y="95.5" width="120" height="29"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
                                 <state key="normal" title="Next Question"/>
                                 <connections>
                                     <action selector="showNextQuestion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EdK-bz-7dz"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tara Jue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EbR-le-0U4">
+                                <rect key="frame" x="159" y="635" width="56" height="21"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="nci-bf-Wn4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="04z-b4-Qtu"/>
-                            <constraint firstItem="nci-bf-Wn4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1je-1H-1Pu"/>
-                            <constraint firstItem="2si-c8-60V" firstAttribute="top" secondItem="nci-bf-Wn4" secondAttribute="bottom" constant="8" id="2tI-LN-RBC"/>
-                            <constraint firstItem="9FY-YG-k3M" firstAttribute="top" secondItem="MbH-Jk-7h8" secondAttribute="bottom" constant="2" id="CyL-ul-wk0"/>
-                            <constraint firstItem="nci-bf-Wn4" firstAttribute="centerX" secondItem="2si-c8-60V" secondAttribute="centerX" id="HtI-In-V1C"/>
-                            <constraint firstItem="MbH-Jk-7h8" firstAttribute="centerX" secondItem="2si-c8-60V" secondAttribute="centerX" id="bVv-f4-VGf"/>
-                            <constraint firstItem="MbH-Jk-7h8" firstAttribute="top" secondItem="2si-c8-60V" secondAttribute="bottom" constant="176" id="pPi-lq-VtR"/>
-                            <constraint firstItem="9FY-YG-k3M" firstAttribute="centerX" secondItem="2si-c8-60V" secondAttribute="centerX" id="zQ2-ZM-UuT"/>
+                            <constraint firstItem="9FY-YG-k3M" firstAttribute="top" secondItem="MbH-Jk-7h8" secondAttribute="bottom" constant="2" id="5ln-jU-2l8"/>
+                            <constraint firstItem="EbR-le-0U4" firstAttribute="top" secondItem="9FY-YG-k3M" secondAttribute="bottom" constant="289" id="B0E-3H-u8Q"/>
+                            <constraint firstItem="nci-bf-Wn4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Osp-1b-vea"/>
+                            <constraint firstItem="nci-bf-Wn4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="Qsv-4a-xPL"/>
+                            <constraint firstItem="MbH-Jk-7h8" firstAttribute="top" secondItem="2si-c8-60V" secondAttribute="bottom" constant="176" id="YfD-d5-lGO"/>
+                            <constraint firstItem="nci-bf-Wn4" firstAttribute="centerX" secondItem="2si-c8-60V" secondAttribute="centerX" id="b6V-bv-Xgf"/>
+                            <constraint firstItem="EbR-le-0U4" firstAttribute="centerX" secondItem="2si-c8-60V" secondAttribute="centerX" id="bFY-jA-r1T"/>
+                            <constraint firstItem="9FY-YG-k3M" firstAttribute="centerX" secondItem="2si-c8-60V" secondAttribute="centerX" id="fcW-Qw-nQS"/>
+                            <constraint firstItem="2si-c8-60V" firstAttribute="top" secondItem="nci-bf-Wn4" secondAttribute="bottom" constant="8" id="ruX-Af-zqW"/>
+                            <constraint firstItem="MbH-Jk-7h8" firstAttribute="centerX" secondItem="2si-c8-60V" secondAttribute="centerX" id="smq-Oa-gQZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -65,6 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
         </scene>
     </scenes>
 </document>

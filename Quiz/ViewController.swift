@@ -16,12 +16,22 @@ class ViewController: UIViewController {
     let questions: [String] = [
         "What is 7+7?",
         "What is the capital of Vermont?",
-        "What is cognac made from?"
+        "What is cognac made from?",
+        "What does plié mean?",
+        "What does frappé mean?",
+        "What does battement mean?",
+        "What does jeté mean?",
+        "What does piqué mean?"
     ]
     let answers: [String] = [
         "14",
         "Montpelier",
-        "Grapes"
+        "Grapes",
+        "Bend of the knees",
+        "To strike",
+        "To beat",
+        "To throw",
+        "To prick"
     ]
     var currentQuestionIndex: Int = 0
     @IBAction func showNextQuestion(_ sender: UIButton) {
