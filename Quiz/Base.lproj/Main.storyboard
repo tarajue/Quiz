@@ -37,29 +37,24 @@
                                     <action selector="showAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oee-rC-IdF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2si-c8-60V">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2si-c8-60V">
                                 <rect key="frame" x="138" y="89" width="98" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Next Question"/>
                                 <connections>
                                     <action selector="showNextQuestion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EdK-bz-7dz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bh5-La-nCD">
-                                <rect key="frame" x="138.5" y="89" width="98" height="30"/>
-                                <state key="normal" title="Next Question"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="nci-bf-Wn4" firstAttribute="centerX" secondItem="bh5-La-nCD" secondAttribute="centerX" id="2sA-wh-wxe"/>
-                            <constraint firstItem="9FY-YG-k3M" firstAttribute="centerX" secondItem="bh5-La-nCD" secondAttribute="centerX" id="G0G-Ai-wCT"/>
-                            <constraint firstItem="nci-bf-Wn4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G3o-Yd-MaC"/>
-                            <constraint firstItem="nci-bf-Wn4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="HLB-GI-po8"/>
-                            <constraint firstItem="bh5-La-nCD" firstAttribute="top" secondItem="nci-bf-Wn4" secondAttribute="bottom" constant="8" id="Ykh-5J-D4p"/>
-                            <constraint firstItem="MbH-Jk-7h8" firstAttribute="top" secondItem="bh5-La-nCD" secondAttribute="bottom" constant="176" id="fyP-m2-od6"/>
-                            <constraint firstItem="MbH-Jk-7h8" firstAttribute="centerX" secondItem="bh5-La-nCD" secondAttribute="centerX" id="gLx-Ai-rnf"/>
-                            <constraint firstItem="9FY-YG-k3M" firstAttribute="top" secondItem="MbH-Jk-7h8" secondAttribute="bottom" constant="2" id="yVw-X1-2oH"/>
+                            <constraint firstItem="nci-bf-Wn4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="04z-b4-Qtu"/>
+                            <constraint firstItem="nci-bf-Wn4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1je-1H-1Pu"/>
+                            <constraint firstItem="2si-c8-60V" firstAttribute="top" secondItem="nci-bf-Wn4" secondAttribute="bottom" constant="8" id="2tI-LN-RBC"/>
+                            <constraint firstItem="9FY-YG-k3M" firstAttribute="top" secondItem="MbH-Jk-7h8" secondAttribute="bottom" constant="2" id="CyL-ul-wk0"/>
+                            <constraint firstItem="nci-bf-Wn4" firstAttribute="centerX" secondItem="2si-c8-60V" secondAttribute="centerX" id="HtI-In-V1C"/>
+                            <constraint firstItem="MbH-Jk-7h8" firstAttribute="centerX" secondItem="2si-c8-60V" secondAttribute="centerX" id="bVv-f4-VGf"/>
+                            <constraint firstItem="MbH-Jk-7h8" firstAttribute="top" secondItem="2si-c8-60V" secondAttribute="bottom" constant="176" id="pPi-lq-VtR"/>
+                            <constraint firstItem="9FY-YG-k3M" firstAttribute="centerX" secondItem="2si-c8-60V" secondAttribute="centerX" id="zQ2-ZM-UuT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
