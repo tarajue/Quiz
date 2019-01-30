@@ -3,6 +3,7 @@
 //  Quiz
 //
 //  Created by Tara Jue on 1/27/19.
+//  High Point University
 //  Copyright © 2019 Tara Jue. All rights reserved.
 //
 
